@@ -1,0 +1,818 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(4, 87, 136);
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 400px;
+    background-color: rgb(255, 255, 255);
+    width: 1024px;
+    height: 150px;
+}
+
+.imagem{
+    position: absolute;
+    left: 15%;
+    bottom: 82%;
+}
+.heanav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.nav{
+    display: flex;
+    gap: 255px;
+    
+}
+.nav .a{
+    
+    padding: 0 10px 10px 0;
+}
+.h1{
+    font-size: 18px;
+    position: relative;
+    padding: 4px;
+}
+
+.h1::before{
+    content: " ";
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    
+}
+
+.h1:hover::before{
+    width: 100%;
+}
+a {
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    color: black;
+}
+
+.imagem {
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   overflow: hidden;
+}
+
+.gtavi {
+    background-color: rgb(241, 153, 168);
+    width: 1024px;
+    height: 380px;
+}
+
+.infogta {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem2 {
+    margin-top: -8px;
+    margin-left: 60px;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+
+/*.img {
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px 10px rgb(240, 128, 146);
+    display: block;
+    transition: 1s;
+}
+.trailer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    object-fit: cover;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  .imagem2:hover .trailer {
+    opacity: 1;
+    height: 100%;
+    border-radius: 20px;
+    transition: 1s ease;
+  }
+  
+  .imagem2:hover .img {
+    transition: 1s ease;
+    opacity: 0;
+  } */
+
+.img {
+    
+    box-shadow: inset 0 0 10px 10px rgb(240, 128, 146);
+    display: block;
+    transition: 1s;
+}
+.trailer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  .imagem2:hover .trailer {
+    opacity: 1;
+    
+    transition: 0.5s ease;
+  }
+  
+  .imagem2:hover .img {
+    opacity: 0;
+  }
+
+.comprasgta {
+    margin-top: 68px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 55, 105);
+    height: 60px;
+    width: 328px;
+    border-radius: 5px;
+    margin-top: 19px;
+    
+    transition: 0.5s;
+    
+}
+.tres:hover {
+    transition: 0.5s ease;
+    
+    background-color: rgb(243, 248, 248);
+}
+
+/*@keyframes mudarCor {
+    50% {
+      background-color: rgb(241, 226, 17); 
+    }
+    100% {
+      background-color: rgb(18, 209, 235);
+    }
+  }*/
+/*background-image: linear-gradient(135deg,
+    rgb(255, 251, 2)40%,rgb(241, 8, 78) 50%) ;
+    background-clip: text;
+    color: transparent;
+    transition: 0.5s ease;
+    font-weight: bold;*/
+
+
+.tres:hover .t{
+    color: rgb(224, 55, 105);
+    transition: 0.5s ease;
+}
+
+:root {
+    --color: linear-gradient(to right,
+    rgb(221, 9, 98) 50%, 
+    rgb(38, 193, 204) 90%, 
+    rgb(235, 216, 45));
+    --white: white;
+}
+
+.h3gta {
+    color: var(--white);
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+h3 {
+    background-image: var(--color);
+    background-clip: text;
+    color: transparent;
+    font-family: 'GTA';
+    font-size: 60px;
+}
+.um {
+    margin-top: -150px;
+
+}
+
+
+.dois {
+    margin-top: -35px;
+    transform: rotate(-33deg);
+    margin-left: -10px;
+}
+.avaliação{
+    display: flex;
+    gap: 5px;
+}
+.parcelagta{
+    margin-top: -12px;
+}
+.precogta{
+    margin-top: -20px;
+}
+.pgta{
+    font-size: 12px;
+    text-decoration: underline;
+}
+.dezoito{
+    display: flex;
+   gap: 5px;
+}
+.texto18{
+    display: flex;
+    flex-direction: column;
+}
+.blabla{
+    font-size: 13px;
+    margin-top: 60px;
+}
+.blu{
+    position: relative;
+    bottom: 9%;
+    left: 4%;
+    font-size: 13px;
+}
+.descava{
+    font-size: 12px;
+    margin-top: -50px;
+}
+.stars{
+    margin-top: -52px;
+}
+.img18{
+    margin-top: 60px;
+}
+.cabeca{
+    margin-top: -36px;
+}
+.descgta {
+    margin-top: -10px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.t {
+    color: rgb(255, 255, 255);
+    transition: 0.5s ;
+}
+.trua {
+    font-size: 25px;
+    color: rgb(247, 224, 99);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px; 
+}
+.um  {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+/* background: linear-gradient(
+            to bottom,
+            rgb(240, 128, 146) 5%,
+            rgb(57, 57, 58) 20%,
+            rgb(8, 8, 8) 100%
+        );*/
+.partbaixo {
+    background-color: rgb(0, 0, 0);
+        width: 1024px;
+        height: 390px;
+        position: relative;
+}
+.calma{
+    position: relative;
+    right: 40%;
+    bottom: 20%;
+    display: flex;
+    gap: -20px;
+}
+.imgcyber {
+    overflow: hidden;
+    transition: 1s;
+}
+
+.infotextcy {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cyber {
+    font-family: 'cyber';
+    color: rgb(241, 238, 7);
+    font-size: 32px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: -55px;
+}
+.c2077{
+    font-family: 'cyber';
+    color: rgb(20, 149, 255);
+    font-size: 32px;
+    margin-top: -80px;
+    margin-left: 170px;
+}
+
+.avaliaçãocy{
+    display: flex;
+    gap: 5px;
+}
+.starscy{
+    margin-top: -25px;
+    margin-left: -50px;
+}
+.descavacy{
+    color: white;
+    font-size: 12px;
+    margin-top: -23px;
+}
+.cy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.btn-keyframes {
+    position: relative;
+    width: 320px;
+    height: 60px;
+    border: none;
+    background-color: rgb(250, 246, 10);
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 1s ease-in ;
+    border-radius: 5px;
+    margin-left: -295px;
+  }
+  .btn-keyframes:hover{
+    background-color: black;
+    transition: background-color 0.3s ease-out;
+  }
+  span{
+    transition: 0.3s ease;
+  }
+  
+  .btn-keyframes:hover span{
+    color: rgb(255, 238, 4);
+  }
+  .btn-keyframes span {
+    position: relative;
+    z-index: 2;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .btn-keyframes .top,
+  .btn-keyframes .right,
+  .btn-keyframes .bottom,
+  .btn-keyframes .left {
+    position: absolute;
+    background-color: rgb(251, 255, 0);
+    border-radius: 5px;
+  }
+  .btn-keyframes .topo,
+  .btn-keyframes .direi,
+  .btn-keyframes .baixo,
+  .btn-keyframes .esque {
+    position: absolute;
+    background-color: rgb(251, 255, 0);
+    opacity: 0;
+  }
+  
+  /*ingles*/
+  .top {
+    top: 0; left: 0; height: 2px; width: 0;
+  }
+  .right {
+    top: 0; right: 0; width: 2px; height: 0;
+  }
+  .bottom {
+    bottom: 0; left: 0; height: 2px; width: 0;
+  }
+  .left {
+    top: 0; left: 0; width: 2px; height: 0;
+  }
+  /*pt-br*/
+  .topo {
+    top: 0; left: 0; height: 2px; width: 100%;
+  }
+  .direi {
+    top: 0; right: 0; width: 2px; height: 100%;
+  }
+  .baixo {
+    bottom: 0; left: 0; height: 2px; width: 100%;
+  }
+  .esque {
+    top: 0; left: 0; width: 2px; height: 100%;
+  }
+  
+  .btn-keyframes:hover .top {
+    animation: k-top 0.3s 0s forwards ;
+  }
+  .btn-keyframes:hover .right {
+    animation: k-right 0.3s forwards 0.3s;
+  }
+  .btn-keyframes:hover .bottom {
+    animation: k-bottom 0.3s forwards 0.3s;
+  }
+  .btn-keyframes:hover .left {
+    animation: k-left 0.3s forwards 0s;
+  }
+  
+
+  .btn-keyframes:not(:hover) .topo {
+    animation: k-top-reverse 0.3s forwards 0.3s;
+    opacity: 1;
+  }
+  .btn-keyframes:not(:hover) .direi {
+    animation: k-right-reverse 0.3s forwards 0s;
+    opacity: 1;
+  }
+  .btn-keyframes:not(:hover) .baixo {
+    animation: k-bottom-reverse 0.3s forwards 0s;
+    opacity: 1;
+  }
+  .btn-keyframes:not(:hover) .esque {
+    animation: k-left-reverse 0.3s forwards 0.3s;
+    opacity: 1;
+  }
+  
+  @keyframes k-top { to { width: 100%; } }
+  @keyframes k-right { to { height: 100%; } }
+  @keyframes k-bottom { to { width: 100%; } }
+  @keyframes k-left { to { height: 100%; } }
+  
+  @keyframes k-top-reverse { to { width: 0%; } }
+  @keyframes k-right-reverse { to { height: 0%; } }
+  @keyframes k-bottom-reverse { to { width: 0%; } }
+  @keyframes k-left-reverse { to { height: 0%; } }
+
+.calma {
+    margin-top: 100px;
+    margin-left: 470px;
+    
+}
+@font-face {
+    font-family: 'GTA';
+    src: url('/fonts/varsity_regular.ttf') format('truetype');
+    font-size: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cyber';
+    src: url('/fonts/Sectar.otf') format('opentype');
+    font-size: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cod';
+    src: url('/fonts/oceanicdriftcond.ttf') format('truetype');
+    font-size: normal;
+    font-style: normal;
+}
+.textcyber{
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.descy{
+    margin-top: -20px;
+    margin-left: -50px;
+}
+.dcy{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.trailercyber{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    pointer-events: none;
+    transition: 1s;
+}
+.img3{
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+}
+.img3:hover .trailercyber{
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.img3:hover .imgcyber{
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.tudocy{
+    margin-top: 130px;
+}
+.dezoitocy{
+    display: flex;
+    gap: 1px;
+    
+    margin-left: -305px;
+}
+.pcy{
+    color: white;
+    margin-top: -px;
+}
+.pacy{
+    color: white;
+    font-size: 12px;
+    margin-top: -15px;
+    text-decoration: underline;
+}
+.bleble{
+    color: white;
+    font-size: 13px;
+    margin-top: 60px;
+   
+}
+.blu{
+    margin-top: 0px;
+    margin-left: -10px;
+}
+.bla{
+    color: white;
+    font-size: 13px;
+    margin-top: 80px;
+    margin-left: -155px;
+}
+
+.cabecacy{
+    margin-top: -20px;
+    margin-left: -295px;
+}
+
+.terçopart{
+    width: 1024px;
+    height: 380px;
+    background-color: rgb(136, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 58px;
+}
+.infocod{
+    margin-top: -35px;
+}
+.imgcod{
+    margin-left: 26px;
+    overflow: hidden;
+    position: relative;
+}
+.imagecod{
+    overflow: hidden;
+    transition: 0.5s ease-out;
+}
+.trailercod{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    pointer-events: none;
+    transition: 1s ease-out;
+}
+.imgcod:hover .trailercod{
+    opacity: 1;
+    transition: 0.5s ease-in;
+}
+.imgcod:hover .imagecod{
+    transition: 1s ease-in;
+    opacity: 0;
+}
+.h1cod{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 0 black, -3px -3px 0 black;
+    font-family: 'cod';
+}
+.titlecod{
+    display: flex;
+    gap: 10px;
+}
+.cod3{
+    color: red;
+    text-shadow: 3px 3px 0 black, -3px -3px 0 black;
+    font-family: 'cod';
+    font-size: 40px;
+}
+.avaliaçãocod{
+    display: flex;
+    gap: 5px;
+    margin-top: -15px;
+}
+.descavacod{
+    margin-top: 2px;
+    font-size: 12px;
+    color: white;
+}
+.descod{
+    margin-top: -20px;
+}
+.dcod{
+    color: white;
+    font-size: 15px;
+}
+.dezoitocod{
+    display: flex;
+    gap: 5px;
+    margin-top: -62px;
+}
+.contem{
+    display: flex;
+    flex-direction: column;
+}
+.class18{
+    margin-top: 60px;
+    font-size: 13px;
+    color: white;
+}
+.blo{
+    margin-top: -10px;
+    font-size: 13px;
+    color: white;
+}
+.cabecacod{
+    display: flex;
+    flex-direction: column;
+    margin-top: -18px;
+}
+.pcod{
+    color: white;
+}
+.pacod{
+    color: white;
+    font-size: 12px;
+    text-decoration: underline;
+    margin-top: -10px;
+}
+
+.button{
+    width: 320px;
+    height: 60px;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: 0.5s ease-in-out;
+}
+.button:hover{
+    background-color: red;
+    border: none;
+    box-shadow: 6px 6px 5px 0 black;
+}
+.button:hover .pcomcod{
+    color: black;
+}
+.pcomcod{
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+  
+@media (max-width: 720px) {
+    body {
+        background-color: transparent;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .imagem{
+        left: 35%;
+        bottom: 93%;
+    }
+    .nav{
+        gap: 200px;
+    }
+    main {
+        width: 100%;
+        height: auto;
+    }
+
+    .gtavi,
+    .partbaixo,
+    .terçopart {
+        width: 100%;
+    }
+}
+
+/*.btn-transition {
+    position: relative;
+    width: 320px;
+    height: 60px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 1s ;
+  }
+  .btn-transition:hover{
+    background-color: black;
+    transition: 1s ease;
+  }
+  .btn-transition span {
+    position: relative;
+    z-index: 2;
+    color: black;
+    font-size: 18px;
+  }
+  .btn-transition:hover span{
+    color: red;
+  }
+  .btn-transition .top,
+  .btn-transition .right,
+  .btn-transition .left,
+  .btn-transition .bottom {
+    position: absolute;
+    background-color: red;
+    z-index: 1;
+    transition: 0.5s ease;
+  }
+  
+
+  .btn-transition .top {
+    top: 0; left: 0; height: 2px; width: 0; transition-delay: 0s;
+  }
+  .btn-transition .right {
+    top: 0; right: 0; width: 2px; height: 0; transition-delay: 0s;
+  }
+  .btn-transition .left {
+    top: 0; left: 0; width: 2px; height: 0; transition-delay: 0s;
+  }
+  .btn-transition .bottom {
+    bottom: 0; left: 0; height: 2px; width: 0; transition-delay: 0s;
+  }
+  
+  .btn-transition:hover .top {
+    width: 100%;
+  }
+  .btn-transition:hover .right {
+    height: 100%;
+  }
+  .btn-transition:hover .left {
+    height: 100%;
+  }
+  .btn-transition:hover .bottom {
+    width: 100%;
+  }
+  
+  
+  
